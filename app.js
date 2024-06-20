@@ -77,3 +77,17 @@ const defaultFunc = (noun = "cat", adjective = "white") => {
 
 defaultFunc("bat", "black");
 defaultFunc();
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = "tasty";
+
+if (pizza === "tasty") {
+  console.log("yum");
+} else {
+  console.log("yuck");
+}
+
+// Your code here
+
+pizza === "tasty" ? console.log("yum") : console.log("yuck");
