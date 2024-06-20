@@ -31,3 +31,7 @@ const car = {
 // Your code here
 const { make, model } = car;
 console.log(make, model);
+
+// Your code here
+const controversialPizzaToppings = [...pizzaToppings];
+console.log(controversialPizzaToppings);
