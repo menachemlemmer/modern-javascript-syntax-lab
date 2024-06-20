@@ -35,3 +35,14 @@ console.log(make, model);
 // Your code here
 const controversialPizzaToppings = [...pizzaToppings];
 console.log(controversialPizzaToppings);
+
+// Duplicate the following object and spread its values into a new variable `myCar`.
+
+// Change the `model` property of `myCar` to 'q7'. Log both objects.
+
+// Your code here
+const myCar = { ...car };
+
+myCar.model = "q7";
+
+console.log(car, myCar);
